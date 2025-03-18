@@ -1,7 +1,4 @@
 [prd]
-tankian.mkh    ansible_user=${TANKIAN_USER_LOGIN}    ansible_password=${TANKIAN_USER_PASSWORD}    CF_TUNNEL_TOKEN=${CF_TUNNEL_TOKEN_TANKIAN}    labels='[ "ansible_controller", "rabbitmq", "obsidian-livesync" ]'
-trujillo.mkh   ansible_user=${TRUJILLO_USER_LOGIN}   ansible_password=${TRUJILLO_USER_PASSWORD}   CF_TUNNEL_TOKEN=${CF_TUNNEL_TOKEN_TRUJILLO}   labels='[ "ansible_controller" ]'
-chuck.mkh      ansible_user=${CHUCK_USER_LOGIN}      ansible_password=${CHUCK_USER_PASSWORD}      CF_TUNNEL_TOKEN=${CF_TUNNEL_TOKEN_CHUCK}      labels='[ "ansible_controller" ]'
-
-[pc]
-jimmy.mkh      ansible_user=${JIMMY_USER_LOGIN}      ansible_password=${JIMMY_USER_PASSWORD}      CF_TUNNEL_TOKEN=${CF_TUNNEL_TOKEN_JIMMY}      labels='[ "open_webui", "tabbyml" ]'
+tankian.mkh    ansible_user=${TANKIAN_USER_LOGIN}    ansible_password=${TANKIAN_USER_PASSWORD}    CF_TUNNEL_TOKEN=${CF_TUNNEL_TOKEN_TANKIAN}    labels='[ "ansible_controller", "cloudflared", "rabbitmq", "obsidian-livesync" ]'
+trujillo.mkh   ansible_user=${TRUJILLO_USER_LOGIN}   ansible_password=${TRUJILLO_USER_PASSWORD}   CF_TUNNEL_TOKEN=${CF_TUNNEL_TOKEN_TRUJILLO}   labels='[ "ansible_controller", "cloudflared" ]'
+chuck.mkh      ansible_user=${CHUCK_USER_LOGIN}      ansible_password=${CHUCK_USER_PASSWORD}      CF_TUNNEL_TOKEN=${CF_TUNNEL_TOKEN_CHUCK}      labels='[ "ansible_controller", "cloudflared" ]'
